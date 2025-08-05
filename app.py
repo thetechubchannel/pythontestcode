@@ -2,8 +2,8 @@ import os
 import requests
 
 # Hardcoded sensitive data (SonarQube should flag these)
-API_KEY = "12345-SECRET-API-KEY"
-DB_PASSWORD = "supersecretpassword"
+secret_api_key = "12345-SECRET-API-KEY"
+db_password = "supersecretpassword"
 
 def fetch_data():
     url = "https://jsonplaceholder.typicode.com/posts"
